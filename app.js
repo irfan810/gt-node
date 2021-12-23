@@ -2,7 +2,7 @@ var apm = require('elastic-apm-node').start({
   serviceName: 'gt-node',
   
   // Set custom APM Server URL (default: http://localhost:8200)
-  serverUrl: 'http://<vm_ip>:30337',
+  serverUrl: 'http://139.59.118.128:30337',
 })
 var sleep = require('sleep');
 
